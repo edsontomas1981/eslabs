@@ -151,7 +151,7 @@ body {
 @media (max-width: 991px) {
   #gtco-main-nav::after {
     width: 55%;
-    left: auto;
+    /* left: auto; */
     right: 0;
   }
 }

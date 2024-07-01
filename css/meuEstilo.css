@@ -1,0 +1,35 @@
+.logo-container {
+  text-align: center; /* Centraliza o logo */
+}
+
+.logo {
+  width: 15rem; /* Tamanho original */
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 10rem; /* Tamanho menor para dispositivos móveis */
+    margin-top: 10px; /* Espaçamento superior para ajustar posição */
+  }
+}
+
+
+/* Estilo para telas menores que 992px (tamanho de tablet e menores) */
+@media (max-width: 991.98px) {
+    .back-bg {
+        display: none;
+    }
+    .oval {
+        display: none;
+    }
+}
+
+/* Estilo para telas maiores que 992px (desktop) */
+@media (min-width: 992px) {
+    .back-bg {
+        display: block;
+    }
+    .oval {
+        display: block;
+    }
+}
